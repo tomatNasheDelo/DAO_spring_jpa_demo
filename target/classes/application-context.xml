@@ -12,8 +12,8 @@
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/CH14_SPRING_HIBERNATE?serverTimezone=UTC"/>
-        <property name="username" value="karim"/>
-        <property name="password" value="Mypass@123"/>
+        <property name="username" value=""/>
+        <property name="password" value=""/>
     </bean>
 
     <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
