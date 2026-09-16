@@ -8,7 +8,7 @@ import com.example.Bid;
 
 public interface BidDao {
 
-    Bid getByid(long id);
+    Bid getById(long id);
 
     List<Bid> getAll();
 

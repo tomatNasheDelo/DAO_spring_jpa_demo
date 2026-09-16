@@ -21,7 +21,7 @@ public class BidDaoImpl implements BidDao {
     @PersistenceContext(type = PersistenceContextType.EXTENDED)
     private EntityManager em;
 
-    public Bid getByid(long id){
+    public Bid getById(long id){
         return em.find(Bid.class, id);
     }
 
