@@ -74,7 +74,7 @@ public class SpringJpaTest {
         assertEquals("Item 1_updated", itemDao.getById(item1.getId()).getName());
     }
 
-
+    // 
     @Test
     public void testInsertBid(){
 
