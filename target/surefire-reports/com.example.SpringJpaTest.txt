@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.example.SpringJpaTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.575 s <<< FAILURE! - in com.example.SpringJpaTest
+testInsertItems  Time elapsed: 0.137 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.SQLGrammarException: error performing isolated work
+	at com.example.SpringJpaTest.setUp(SpringJpaTest.java:38)
+Caused by: org.hibernate.exception.SQLGrammarException: error performing isolated work
+	at com.example.SpringJpaTest.setUp(SpringJpaTest.java:38)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'CH14_SPRING_HIBERNATE.ID_GENERATOR' doesn't exist
+	at com.example.SpringJpaTest.setUp(SpringJpaTest.java:38)
+
